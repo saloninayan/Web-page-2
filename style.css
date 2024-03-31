@@ -1,0 +1,47 @@
+.Content{
+    width: 100%;
+    height:60%;
+    
+
+}
+.items-list{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+    margin: 5px;
+  
+    
+ }
+ .offer-price {
+    font-weight: bold;
+    }
+    .normal-price {
+    color: gray;
+    text-decoration: line-through;
+    }
+    .discount {
+    color: yellowgreen;
+    font-weight: bold;
+    }
+
+
+.footer {
+    margin-trim: 100%;
+    width: 100%;
+min-height: 200px;
+}
+.main{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
